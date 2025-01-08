@@ -1,4 +1,7 @@
-## Survival Server
+# Lobby
+The lobby serves as a placeholder for new players and players looking to switch servers. It contains multiple ways to switch servers including commands, a server switcher item and portals the player can enter. Located underneath the Lobby is a collection of network wide leaderboards, stats and recognition boards. Anytime a sub-server goes down for maintenance or needs to restart, players will instead be sent to the Lobby. When a player first joins the server, they will be unable to do anything until they read and accept the rules. After doing so, they will be teleported into the lobby, granted basic permissions and will be able to access the Creative and Minigames servers. The Survival server requires discord linking and will provide instructions to the player when they attempt to join. This process requires the player to send a unqiue pincode to the AlterumNetwork discord bot account, which will automatically link their account and grant them access.
+
+# Survival Server
 This is a semi vanilla survival server with a small infusion of mmo/rpg elements. Players can claim land, form Nations, create Clans, purchase plots, setup shops, battle in the mob arena, explore dungeons and complete quest. There is a PVP protected zone within 2.5k blocks of the world spawn to allow peaceful players to enjoy the server. More details on specific features can be found below:
 
 **Land Claiming**
@@ -22,3 +25,17 @@ There are a handful of quest scattered around the spawn. Some are simple and eas
  - Access shulker inventory without placing the shulker down!
  - Increase your HP with Heart Cannisters: These can be crafted with rate materials, or acquired as loot from certain bosses
  - Create Hopper filters with item frames
+
+# Creative Server
+The creative server is a very basic Plots server. Players can freel purchase plots with currency they have earned from playing on the network. Players can merge plots together, use world edit commands inside their plots and grant other players access to build inside their plot. For a full list of commands available for Plots, please see: [Plot Squared Commands](https://intellectualsites.gitbook.io/plotsquared/features/commands)
+A basic guide is as follow:
+ - Purchase the plot you are standing in (if its available) with */plot buy*
+ - Add a Member to the plot with */plot add <username>* This grans the user build rights to your plot while you are online, otherwise you can trust users with the */plot trust <username>*. This will grant them complete access your plot, even when you are offline
+ - Using */plot merge* you can merge together two adjacent plots, assuming you own them both
+
+# Minigames
+Under construction, but the plans are to have:
+ - Parkour
+ - Elytra Race
+ - "Lethal Company" inspired randomized loot collector minigame
+ - "Chained Together" inspired parkour minigame
